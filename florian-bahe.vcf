@@ -1,10 +1,11 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:BAHE Florian
+N:BAHE;Florian;;;
+FN:Florian BAHE
 ORG:VERSo
 TITLE:Ingénieur en Analyse du Cycle de Vie
 TEL;TYPE=CELL:+33636246735
-EMAIL:florian.bahe@verso-acv.com
+EMAIL;TYPE=WORK:florian.bahe@verso-acv.com
 URL:https://verso-acv.com/
 URL:https://www.linkedin.com/in/florian-bahe/
 END:VCARD
