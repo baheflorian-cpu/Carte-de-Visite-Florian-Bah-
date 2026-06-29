@@ -1,11 +1,11 @@
-:root {
-    --green: #5aa146;
-    --green-dark: #3d7d2d;
-    --background: #f4f7f3;
-    --card: #ffffff;
-    --text: #1f2937;
-    --muted: #6b7280;
-    --border: #e6ebe6;
+:root{
+    --green:#5A9E4B;
+    --green-dark:#3E7E34;
+    --bg:#f6f8f5;
+    --card:#ffffff;
+    --text:#1d2939;
+    --grey:#667085;
+    --border:#e9ecef;
 }
 
 *{
@@ -16,39 +16,43 @@
 
 body{
 
-    font-family:'Inter',sans-serif;
-    background:var(--background);
-    color:var(--text);
+    font-family:"Inter",sans-serif;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    background:linear-gradient(180deg,#f8faf8 0%,#eef4ee 100%);
+
+    color:var(--text);
 
     min-height:100vh;
 
-    padding:30px;
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px 20px;
 
 }
 
 .card{
 
     width:100%;
-    max-width:470px;
+    max-width:500px;
 
-    background:var(--card);
+    background:white;
 
-    border-radius:22px;
+    border-radius:28px;
 
-    padding:42px;
+    padding:45px;
 
     box-shadow:
-        0 15px 40px rgba(0,0,0,.08);
+        0 20px 50px rgba(0,0,0,.08);
 
 }
 
 .logo{
 
-    width:190px;
+    width:220px;
 
     display:block;
 
@@ -62,11 +66,11 @@ h1{
 
     text-align:center;
 
-    font-size:2rem;
+    font-size:2.1rem;
 
     font-weight:700;
 
-    letter-spacing:-0.5px;
+    letter-spacing:-1px;
 
 }
 
@@ -74,9 +78,9 @@ h1{
 
     text-align:center;
 
-    color:var(--muted);
-
     margin-top:8px;
+
+    color:var(--grey);
 
     line-height:1.5;
 
@@ -86,11 +90,11 @@ h1{
 
     width:70px;
 
-    height:4px;
+    height:5px;
 
     background:var(--green);
 
-    border-radius:50px;
+    border-radius:999px;
 
     margin:35px auto;
 
@@ -102,7 +106,7 @@ h1{
 
     flex-direction:column;
 
-    gap:18px;
+    gap:16px;
 
 }
 
@@ -114,11 +118,11 @@ h1{
 
     gap:18px;
 
-    padding:18px;
+    padding:18px 20px;
+
+    border-radius:18px;
 
     border:1px solid var(--border);
-
-    border-radius:16px;
 
     text-decoration:none;
 
@@ -130,40 +134,51 @@ h1{
 
 .link:hover{
 
-    transform:translateY(-2px);
-
     border-color:var(--green);
 
-    box-shadow:0 8px 18px rgba(0,0,0,.05);
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.05);
 
 }
 
 .icon{
 
-    width:52px;
-    height:52px;
+    width:55px;
+
+    height:55px;
+
+    background:#eef8eb;
+
+    color:var(--green-dark);
 
     border-radius:50%;
 
-    background:#eef7ec;
-
     display:flex;
-
-    align-items:center;
 
     justify-content:center;
 
-    font-size:22px;
+    align-items:center;
+
+    font-size:24px;
+
+    flex-shrink:0;
+
+}
+
+.content{
+
+    display:flex;
+
+    flex-direction:column;
 
 }
 
 .label{
 
-    display:block;
+    font-size:.82rem;
 
-    font-size:.80rem;
-
-    color:var(--muted);
+    color:var(--grey);
 
     margin-bottom:4px;
 
@@ -171,9 +186,9 @@ h1{
 
 .value{
 
-    font-weight:600;
-
     font-size:1rem;
+
+    font-weight:600;
 
 }
 
@@ -185,15 +200,15 @@ h1{
 
     text-align:center;
 
+    padding:18px;
+
     background:var(--green);
 
     color:white;
 
     text-decoration:none;
 
-    padding:18px;
-
-    border-radius:14px;
+    border-radius:16px;
 
     font-size:1rem;
 
@@ -211,11 +226,11 @@ h1{
 
 footer{
 
-    margin-top:30px;
+    margin-top:28px;
 
     text-align:center;
 
-    color:#a0a0a0;
+    color:#98A2B3;
 
     font-size:.9rem;
 
@@ -225,19 +240,21 @@ footer{
 
 .card{
 
-padding:28px;
+padding:30px;
+
+border-radius:22px;
 
 }
 
 .logo{
 
-width:160px;
+width:180px;
 
 }
 
 h1{
 
-font-size:1.7rem;
+font-size:1.8rem;
 
 }
 
